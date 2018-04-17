@@ -13,7 +13,6 @@
     Hover color: #eea29a
 
 */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* Global reset rule */
 * {
@@ -47,7 +46,7 @@ p, h1, h2, h3, a, li, figcaption {
 }
 
 /* Header specific color */
-header h1 a {
+header a {
     
     color: #8D2020;    
     text-decoration: none;
@@ -90,7 +89,7 @@ nav ul li a {
 }
 
 /* Navigation styling */
-nav ul li, div#mobilenavigation li {
+nav ul li, #mobilenavigation li {
     
     list-style: none;
     
@@ -120,26 +119,26 @@ nav ul li {
     
 }
 
-nav li#current a, div#mobilenavigation li#current a {
+nav #current a, #mobilenavigation #current a {
     
     color: #f7786b;
     
 }
 
-nav ul li a:hover, li#current a:hover, div#mobilenavigation ul li a:hover, div#mobilenavigation ul li#current a:hover {
+nav ul li a:hover, #current a:hover, #mobilenavigation ul li a:hover, #mobilenavigation ul #current a:hover {
     
     color: #eea29a;
     
 }
 
 /* Mobile specific navigation */
-p#navcontrol-mobile {
+#navcontrol-mobile {
     
     text-align: center;
     
 }
 
-div#mobilenavigation ul li {
+#mobilenavigation ul li {
     
     display: none;
     text-align: center;
@@ -147,7 +146,7 @@ div#mobilenavigation ul li {
     
 }
 
-div#mobilenavigation li, div#mobilenavigation p {
+#mobilenavigation li, #mobilenavigation p {
     
     list-style: none;
     margin: 0.2em 0;
@@ -155,25 +154,25 @@ div#mobilenavigation li, div#mobilenavigation p {
     
 }
 
-div#mobilenavigation li a {
+#mobilenavigation li a {
     
     text-decoration: none;
     
 }
 
-div#mobilenavigation:focus {
+#mobilenavigation:focus {
     
     border-bottom: #000 5px solid;
     
 }
 
-div#mobilenavigation:hover ul li, div#mobilenavigation:focus ul li {
+#mobilenavigation:hover ul li, #mobilenavigation:focus ul li {
     
     display: block;
     
 }
 
-div#main {
+#main {
     
     clear: left;
     float: left;
@@ -183,13 +182,13 @@ div#main {
 }
 
 /* Main div article styling */
-div#main article {
+#main article {
     
     height: 100%;
     
 }
 
-div#main article h1 {
+#main article h1 {
     
     font-size: 1.5em;
     margin-left: 1em;
@@ -197,7 +196,7 @@ div#main article h1 {
     
 }
 
-div#main article h2 {
+#main article h2 {
     
     margin: 0.15em 3em;
     font-size: 1.4em;
@@ -259,7 +258,7 @@ input[type="text"] {
 input[type="email"] {
     
     width: 70%;
-    margin: 0.5em 0em;
+    margin: 0.5em 0;
     
 }
 
@@ -272,7 +271,7 @@ textarea {
 }
 
 /* Contact article */
-article.contact {
+.contact {
     
     height: 35% !important;
     display: none;
@@ -288,7 +287,7 @@ input[type="submit"] {
 }
 
 /* Main div Figure styling */
-div#main figure {
+#main figure {
     
     position: relative;
     margin: 0.5em 0;
@@ -391,19 +390,19 @@ footer a {
         
     }
     
-    div#main {
+    #main {
         
         width: 80%;
         
     }
     
-    div#main article h2 {
+    #main article h2 {
         
         display: block;
         
     }
     
-    div#main figure {
+    #main figure {
         
         margin: 1.5em 0;
         
@@ -424,7 +423,7 @@ footer a {
         
     }
 
-    div#main article h1 {
+    #main article h1 {
     
         font-size: 1.9em;
     
