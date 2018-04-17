@@ -13,6 +13,7 @@
     Hover color: #eea29a
 
 */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 /* Global reset rule */
 * {
@@ -46,7 +47,7 @@ p, h1, h2, h3, a, li, figcaption {
 }
 
 /* Header specific color */
-header a {
+header h1 a {
     
     color: #8D2020;    
     text-decoration: none;
@@ -64,7 +65,7 @@ header {
     
     float: right;
     margin-bottom: 0.5em;
-    font-size: 1em;
+/*    font-size: 1em;*/
     width: 100%;
     
     border-bottom: #92a8d1 7px solid;
@@ -119,20 +120,20 @@ nav ul li {
     
 }
 
-nav #current a, #mobilenavigation #current a {
+nav li#current a, #mobilenavigation li#current a {
     
     color: #f7786b;
     
 }
 
-nav ul li a:hover, #current a:hover, #mobilenavigation ul li a:hover, #mobilenavigation ul #current a:hover {
+nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover, #mobilenavigation ul li#current a:hover {
     
     color: #eea29a;
     
 }
 
 /* Mobile specific navigation */
-#navcontrol-mobile {
+p#navcontrol-mobile {
     
     text-align: center;
     
@@ -146,11 +147,12 @@ nav ul li a:hover, #current a:hover, #mobilenavigation ul li a:hover, #mobilenav
     
 }
 
+#mobilenavigation p { font-size: 1.3em; }
+
 #mobilenavigation li, #mobilenavigation p {
     
     list-style: none;
     margin: 0.2em 0;
-    font-size: 1.3em;
     
 }
 
@@ -258,7 +260,7 @@ input[type="text"] {
 input[type="email"] {
     
     width: 70%;
-    margin: 0.5em 0;
+    margin: 0.5em 0em;
     
 }
 
@@ -271,7 +273,7 @@ textarea {
 }
 
 /* Contact article */
-.contact {
+article.contact {
     
     height: 35% !important;
     display: none;
