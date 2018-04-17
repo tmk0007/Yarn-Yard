@@ -47,7 +47,7 @@ p, h1, h2, h3, a, li, figcaption {
 }
 
 /* Header specific color */
-header h1 a {
+header a {
     
     color: #8D2020;    
     text-decoration: none;
@@ -55,7 +55,7 @@ header h1 a {
 }
 
 /* Header styling */
-img#page-icon {
+#page-icon {
     
     float: left;
     
@@ -65,19 +65,18 @@ header {
     
     float: right;
     margin-bottom: 0.5em;
-/*    font-size: 1em;*/
     width: 100%;
     
     border-bottom: #92a8d1 7px solid;
     
 }
 
-header h1 {
+.large-title {
     
     position: relative;
-    margin-left: 1.5em;
-    font-size: 1.6em;
-    top: 1.2em;
+    font-size: 1.1em;
+    top: 0.1em;
+    left: 0.2em;
     
 }
 
@@ -133,7 +132,7 @@ nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover, #mobilen
 }
 
 /* Mobile specific navigation */
-p#navcontrol-mobile {
+#navcontrol-mobile {
     
     text-align: center;
     
@@ -179,26 +178,27 @@ p#navcontrol-mobile {
     clear: left;
     float: left;
     width: 95%;
-    height: 80%;
+    height: 60%;
     
 }
 
-/* Main div article styling */
-#main article {
+.small-title {
     
-    height: 100%;
-    
-}
-
-#main article h1 {
-    
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-left: 1em;
     color: #034f84;
     
 }
 
-#main article h2 {
+.medium-title {
+    
+    font-size: 1.8em;
+    margin-left: 1em;
+    color: #034f84;    
+    
+}
+
+.subtitle {
     
     margin: 0.15em 3em;
     font-size: 1.4em;
@@ -273,7 +273,7 @@ textarea {
 }
 
 /* Contact article */
-article.contact {
+.contact {
     
     height: 35% !important;
     display: none;
@@ -289,22 +289,23 @@ input[type="submit"] {
 }
 
 /* Main div Figure styling */
-#main figure {
+.item-container {
     
     position: relative;
     margin: 0.5em 0;
     margin-left: 1em;
     height: 20%;
     border: #92a8d1 3px solid;
+    padding-bottom: 0.5em;
     
 }
 
-figure figcaption h1 {
+.item-title {
     
     position: relative;
     margin: 0.3em 0 0.25em 0.2em;
     width: 120%;
-    font-size: 1.8em;
+    font-size: 1.15em;
     
 }
 
@@ -323,13 +324,15 @@ figure figcaption {
 
 figure img {
     
+    position: relative;
     float: left;
     height: 100%;
     margin: 0 0.7em;
+    top: 0.5em;
     
 }
 
-figure:hover h1 {
+figure:hover .item-title {
     
     color: #92a8d1;
     cursor: default;
@@ -342,7 +345,7 @@ footer {
     text-align: center;
     clear: both;
     position: relative;
-    top: 15%;
+    top: 10%;
     
 }
 
@@ -360,10 +363,10 @@ footer a {
 
 @media screen and (min-width: 768px) {
     
-    header h1 {
+    .large-title {
     
-        font-size: 3em;
-        top: 0.1em;
+        font-size: 1.4em;
+        top: 0.3em;
     
     }
 
@@ -395,27 +398,33 @@ footer a {
     #main {
         
         width: 80%;
+        height: 60%;
         
     }
     
-    #main article h2 {
+    .small-title {
+        
+        font-size: 1.7em;
+        
+    }
+    
+    .medium-title {
+        
+        font-size: 1.9em;
+        
+    }
+    
+    .subtitle {
         
         display: block;
         
     }
     
-    #main figure {
+    .item-container {
         
         margin: 1.5em 0;
-        
         height: 17%;
         border-left: none;
-        
-    }
-    
-    figure figcaption h1 {
-        
-        width: 100%;
         
     }
     
@@ -424,14 +433,8 @@ footer a {
         display: block;
         
     }
-
-    #main article h1 {
     
-        font-size: 1.9em;
-    
-    }
-    
-    footer a#tele {
+    #tele {
     
         pointer-events: none;
         cursor: default;
@@ -440,7 +443,7 @@ footer a {
     
     footer {
         
-        top: 9%;
+        top: 18%;
         
     }
     
@@ -496,6 +499,14 @@ footer a {
         width: 17%;
         
     }
+    
+    .item-title {
+    
+        font-size: 1.5em;
+        width: 100%;
+    
+    }
+
     
 }
 
