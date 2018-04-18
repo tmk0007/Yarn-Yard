@@ -4,11 +4,7 @@
 
     Author: Tyler Kennedy
     Updated: 11 April 2018
-<<<<<<< HEAD
     Created: 18 April 2018
-=======
-    Created: 17 April 2018
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 
 
     Border color: #92a8d1
@@ -18,11 +14,8 @@
 
 */
 
-<<<<<<< HEAD
 /* Global changes */
 
-=======
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 /* Global reset rule */
 * {
     
@@ -51,27 +44,11 @@ p, h1, h2, h3, a, li, figcaption {
     color: #034f84;
     font-family: 'Raleway', 'Times New Roman', sans-serif;
     
-<<<<<<< HEAD
     
 }
 
 /* Header rules */
 header a {
-=======
-    
-}
-
-/* Header specific color */
-header a {
-    
-    color: #8D2020;    
-    text-decoration: none;
-    
-}
-
-/* Header styling */
-#page-icon {
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
     color: #8D2020;    
     text-decoration: none;
@@ -85,7 +62,6 @@ header {
     width: 100%;
     
     border-bottom: #92a8d1 7px solid;
-<<<<<<< HEAD
     
 }
 
@@ -96,16 +72,10 @@ header {
 }
 
 /* Class rules */
-=======
-    
-}
-
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 .large-title {
     
     position: relative;
     font-size: 1.1em;
-<<<<<<< HEAD
     top: 0.7em;
     left: 0.2em;
     
@@ -133,10 +103,6 @@ header {
     font-size: 1.6em;
     margin-left: 1em;
     color: #034f84;
-=======
-    top: 0.1em;
-    left: 0.2em;
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
 }
 
@@ -156,12 +122,7 @@ header {
     
 }
 
-<<<<<<< HEAD
 .item-container {
-=======
-/* Navigation styling */
-nav ul li, #mobilenavigation li {
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
     position: relative;
     margin: 0.5em 0;
@@ -209,7 +170,6 @@ nav ul li {
     
 }
 
-<<<<<<< HEAD
 nav ul li a {
     
     text-decoration: none;
@@ -217,8 +177,6 @@ nav ul li a {
     
 }
 
-=======
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 nav li#current a, #mobilenavigation li#current a {
     
     color: #f7786b;
@@ -231,7 +189,6 @@ nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover, #mobilen
     
 }
 
-<<<<<<< HEAD
 /* Mobile navigation styling */
 #mobilenavigation:focus {
     
@@ -245,9 +202,6 @@ nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover, #mobilen
     
 }
 
-=======
-/* Mobile specific navigation */
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 #navcontrol-mobile {
     
     text-align: center;
@@ -277,92 +231,16 @@ nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover, #mobilen
     
 }
 
-<<<<<<< HEAD
 /* Contact article style rules */
 .contact {
-=======
-#mobilenavigation:focus {
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
     height: 35% !important;
     display: none;
     
 }
 
-<<<<<<< HEAD
 /* Contact form style rules */
 form {
-=======
-#mobilenavigation:hover ul li, #mobilenavigation:focus ul li {
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
-    
-    display: block;
-    margin-left: 1.5em;
-    
-}
-
-<<<<<<< HEAD
-form span {
-    
-    margin: 1em 0.4em;
-    
-}
-
-fieldset {
-    
-    margin: 1.5em 0;
-    padding-bottom: 0.6em;
-    
-}
-
-fieldset legend {
-    
-    margin: 0 3em;
-    font-size: 1.1em;
-    font-weight: bold;
-    
-}
-
-fieldset:nth-of-type(2) span {
-=======
-#main {
-    
-    clear: left;
-    float: left;
-    width: 95%;
-    height: 60%;
-    
-}
-
-.small-title {
-    
-    font-size: 1.6em;
-    margin-left: 1em;
-    color: #034f84;
-    
-}
-
-.medium-title {
-    
-    font-size: 1.8em;
-    margin-left: 1em;
-    color: #034f84;    
-    
-}
-
-.subtitle {
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
-    
-    font-size: 1.3em;
-    
-}
-
-<<<<<<< HEAD
-fieldset legend:before, fieldset legend:after {
-    
-=======
-/* Contact page form styling */
-form {
     
     display: block;
     margin-left: 1.5em;
@@ -398,7 +276,6 @@ fieldset:nth-of-type(2) span {
 
 fieldset legend:before, fieldset legend:after {
     
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     content: "  ";
     white-space: pre;
     
@@ -419,25 +296,6 @@ input[type="email"] {
     
 }
 
-<<<<<<< HEAD
-=======
-textarea {
-    
-    display: block;
-    margin: 0.4em auto;
-    width: 90%;
-    
-}
-
-/* Contact article */
-.contact {
-    
-    height: 35% !important;
-    display: none;
-    
-}
-
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 input[type="submit"] {
     
     width: 40%;
@@ -446,7 +304,6 @@ input[type="submit"] {
     
 }
 
-<<<<<<< HEAD
 textarea {
     
     display: block;
@@ -462,26 +319,6 @@ textarea {
     float: left;
     width: 95%;
     height: 60%;
-=======
-/* Main div Figure styling */
-.item-container {
-    
-    position: relative;
-    margin: 0.5em 0;
-    margin-left: 1em;
-    height: 20%;
-    border: #92a8d1 3px solid;
-    padding-bottom: 0.5em;
-    
-}
-
-.item-title {
-    
-    position: relative;
-    margin: 0.3em 0 0.25em 0.2em;
-    width: 120%;
-    font-size: 1.15em;
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
 }
 
@@ -515,7 +352,6 @@ figure:hover .item-title {
     
 }
 
-<<<<<<< HEAD
 /* "Yarn Yard" photo styling */
 #yard-photo {
     
@@ -528,24 +364,18 @@ figure:hover .item-title {
 }
 
 /* Footer style rules */
-=======
-/* Footer styling */
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 footer {
 
     text-align: center;
     clear: both;
     position: relative;
     top: 10%;
-<<<<<<< HEAD
     
 }
 
 footer a {
     
     text-decoration: none;
-=======
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
 }
 
@@ -555,23 +385,12 @@ footer p span:before {
     white-space: pre;
 }
 
-<<<<<<< HEAD
 /* Media queries */
-=======
-footer a {
-    
-    text-decoration: none;
-    
-}
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 
 /* Tablet and up media query */
 @media screen and (min-width: 768px) {
     
-<<<<<<< HEAD
     /* Class changes */
-=======
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     .large-title {
     
         font-size: 1.4em;
@@ -605,7 +424,6 @@ footer a {
         
     }
     
-<<<<<<< HEAD
     .item-title {
     
         font-size: 1.5em;
@@ -639,38 +457,6 @@ footer a {
         
         width: 80%;
         height: 60%;
-=======
-    #main {
-        
-        width: 80%;
-        height: 60%;
-        
-    }
-    
-    .small-title {
-        
-        font-size: 1.7em;
-        
-    }
-    
-    .medium-title {
-        
-        font-size: 1.9em;
-        
-    }
-    
-    .subtitle {
-        
-        display: block;
-        
-    }
-    
-    .item-container {
-        
-        margin: 1.5em 0;
-        height: 17%;
-        border-left: none;
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
         
     }
     
@@ -680,14 +466,6 @@ footer a {
         display: block;
         
     }
-<<<<<<< HEAD
-=======
-    
-    #tele {
-    
-        pointer-events: none;
-        cursor: default;
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
     /* Contact form changes */
     form {
@@ -695,17 +473,7 @@ footer a {
         margin-top: 1em;
         
     }
-<<<<<<< HEAD
         
-=======
-    
-    footer {
-        
-        top: 18%;
-        
-    }
-    
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     input[type="text"] {
         
         margin-left: 0.4em;
@@ -726,18 +494,6 @@ footer a {
         
     }
     
-    input[type="text"] {
-        
-        width: 80%;
-        
-    }
-    
-    input[type="email"] {
-
-        width: 80%;
-
-    }
-    
     textarea {
         
         width: 90%;
@@ -753,7 +509,6 @@ footer a {
         
     }
     
-<<<<<<< HEAD
     /* Footer changes */
     footer {
         
@@ -767,27 +522,6 @@ footer a {
         cursor: default;
     
     }
-=======
-    form {
-        
-        margin-top: 1em;
-        
-    }
-    
-    nav {
-        
-        width: 17%;
-        
-    }
-    
-    .item-title {
-    
-        font-size: 1.5em;
-        width: 100%;
-    
-    }
-
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     
 }
 
@@ -802,22 +536,16 @@ footer a {
     
 }
 
-<<<<<<< HEAD
 /* Large laptop and up media query */
 @media screen and (min-width: 1440px) {
     
     /* Nav changes so it doesn't take up too much screen room */
-=======
-@media screen and (min-width: 1440px) {
-        
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
     nav {
         
         width: 10%;
         
     }
     
-<<<<<<< HEAD
 }
 
 /* Printer media query */
@@ -850,6 +578,3 @@ footer a {
 }
 
 
-=======
-}
->>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
