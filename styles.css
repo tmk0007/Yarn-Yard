@@ -1,10 +1,10 @@
 /* 
 
-    Stylesheet for Yaroslava's Yarn Yard
+    Stylesheet for The Yarn Yard
 
     Author: Tyler Kennedy
     Updated: 11 April 2018
-    Created: 16 April 2018
+    Created: 18 April 2018
 
 
     Border color: #92a8d1
@@ -13,17 +13,8 @@
     Hover color: #eea29a
 
 */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 
-/* Replace variables later */
-:root {
-    
-    --header-color: #f7cac9;
-    --border-color: #92a8d1;
-    --text-color: #034f84;
-    --background-color: #deeaee;
-    
-}
+/* Global changes */
 
 /* Global reset rule */
 * {
@@ -35,7 +26,7 @@
 
 html, body {
     
-    height: 96%;
+    height: 100%;
     width: 100%;
     
 }
@@ -43,30 +34,24 @@ html, body {
 /* Body global rules */
 body {
     
-    background-color: var(--background-color);
+    background-color: #deeaee;
     
 }
 
 /* Global text rules */
 p, h1, h2, h3, a, li, figcaption {
     
-    color: var(--text-color);
+    color: #034f84;
     font-family: 'Raleway', 'Times New Roman', sans-serif;
     
+    
 }
 
-/* Header specific color */
-header h1 a {
+/* Header rules */
+header a {
     
-    color: var(--header-color);    
+    color: #8D2020;    
     text-decoration: none;
-    
-}
-
-/* Header styling */
-img#page-icon {
-    
-    float: left;
     
 }
 
@@ -74,139 +59,29 @@ header {
     
     float: right;
     margin-bottom: 0.5em;
-    font-size: 1em;
     width: 100%;
     
-    border-bottom: var(--border-color) 7px solid;
+    border-bottom: #92a8d1 7px solid;
     
 }
 
-header h1 {
+#page-icon {
+    
+    float: left;
+    
+}
+
+/* Class rules */
+.large-title {
     
     position: relative;
-    margin-left: 1.5em;
-    font-size: 1.6em;
-    top: 1.2em;
+    font-size: 1.1em;
+    top: 0.7em;
+    left: 0.2em;
     
 }
 
-/* Remove the blue color and underline from the links in the navigation */
-nav ul li a {
-    
-    text-decoration: none;
-    color: #000;
-    
-}
-
-/* Navigation styling */
-nav ul li, div#mobilenavigation li {
-    
-    list-style: none;
-    
-    margin: 0.5em;
-    
-    font-size: 1.5em;
-    
-}
-
-nav {
-    
-    width: 17%;
-    height: 77%;
-    border: var(--border-color) 3px solid;
-    float: right;
-    text-align: center;
-    border-right: none;
-    margin-bottom: 0.5em;
-    display: none;
-    
-}
-
-
-nav ul li {
-    
-    margin: 1.0em 0;
-    
-}
-
-nav li#current a, div#mobilenavigation li#current a {
-    
-    color: #f7786b;
-    
-}
-
-nav ul li a:hover, li#current a:hover, div#mobilenavigation ul li a:hover, div#mobilenavigation ul li#current a:hover {
-    
-    color: #eea29a;
-    
-}
-
-/* Mobile specific navigation */
-p#navcontrol-mobile {
-    
-    text-align: center;
-    
-}
-
-div#mobilenavigation ul li {
-    
-    display: none;
-    text-align: center;
-    font-size: 1.2em;
-    
-}
-
-div#mobilenavigation li, div#mobilenavigation p {
-    
-    list-style: none;
-    margin: 0.2em 0;
-    font-size: 1.3em;
-    
-}
-
-div#mobilenavigation li a {
-    
-    text-decoration: none;
-    
-}
-
-div#mobilenavigation:focus {
-    
-    border-bottom: #000 5px solid;
-    
-}
-
-div#mobilenavigation:hover ul li, div#mobilenavigation:focus ul li {
-    
-    display: block;
-    
-}
-
-div#main {
-    
-    clear: left;
-    float: left;
-    width: 95%;
-    height: 80%;
-    
-}
-
-/* Main div article styling */
-div#main article {
-    
-    height: 100%;
-    
-}
-
-div#main article h1 {
-    
-    font-size: 1.5em;
-    margin-left: 1em;
-    color: #034f84;
-    
-}
-
-div#main article h2 {
+.subtitle {
     
     margin: 0.15em 3em;
     font-size: 1.4em;
@@ -215,10 +90,194 @@ div#main article h2 {
     
 }
 
+.medium-title {
+    
+    font-size: 1.8em;
+    margin-left: 1em;
+    color: #034f84;    
+    
+}
+
+.small-title {
+    
+    font-size: 1.6em;
+    margin-left: 1em;
+    color: #034f84;
+    
+}
+
+.small-text {
+    
+    
+    font-size: 1.2em;
+    margin-left: 0.7em;
+    text-indent: 0.8em;
+    margin-top: 0.3em;
+    
+}
+
+.small-text a {
+    
+    text-decoration: none;
+    
+}
+
+.item-container {
+    
+    position: relative;
+    margin: 0.5em 0;
+    margin-left: 1em;
+    height: 20%;
+    border: #92a8d1 3px solid;
+    padding-bottom: 0.5em;
+    
+}
+
+.item-title {
+    
+    position: relative;
+    margin: 0.3em 0 0.25em 0.2em;
+    width: 120%;
+    font-size: 1.15em;
+    
+}
+
+/* Navigaition styling */
+nav {
+    
+    width: 15%;
+    height: 70%;
+    border: #92a8d1 3px solid;
+    float: right;
+    text-align: center;
+    border-right: none;
+    margin-bottom: 0.5em;
+    display: none;
+    
+}
+
+nav ul li, #mobilenavigation li {
+    
+    list-style: none;
+    margin: 0.5em;
+    font-size: 1.5em;
+    
+}
+
+nav ul li {
+    
+    margin: 1.0em 0;
+    
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: #000;
+    
+}
+
+nav li#current a, #mobilenavigation li#current a {
+    
+    color: #f7786b;
+    
+}
+
+nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover, #mobilenavigation ul li#current a:hover {
+    
+    color: #eea29a;
+    
+}
+
+/* Mobile navigation styling */
+#mobilenavigation:focus {
+    
+    border-bottom: #000 5px solid;
+    
+}
+
+#mobilenavigation:hover ul li, #mobilenavigation:focus ul li {
+    
+    display: block;
+    
+}
+
+#navcontrol-mobile {
+    
+    text-align: center;
+    
+}
+
+#mobilenavigation ul li {
+    
+    display: none;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+#mobilenavigation p { font-size: 1.3em; }
+
+#mobilenavigation li, #mobilenavigation p {
+    
+    list-style: none;
+    margin: 0.2em 0;
+    
+}
+
+#mobilenavigation li a {
+    
+    text-decoration: none;
+    
+}
+
+/* Contact article style rules */
+.contact {
+    
+    height: 35% !important;
+    display: none;
+    
+}
+
+/* Contact form style rules */
 form {
     
     display: block;
-    margin-top: 4em;
+    margin-left: 1.5em;
+    
+}
+
+form span {
+    
+    margin: 1em 0.4em;
+    
+}
+
+fieldset {
+    
+    margin: 1.5em 0;
+    padding-bottom: 0.6em;
+    
+}
+
+fieldset legend {
+    
+    margin: 0 3em;
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+fieldset:nth-of-type(2) span {
+    
+    font-size: 1.3em;
+    
+}
+
+fieldset legend:before, fieldset legend:after {
+    
+    content: "  ";
+    white-space: pre;
     
 }
 
@@ -226,6 +285,7 @@ input[type="text"] {
     
     width: 70%;
     margin-left: 0.4em;
+    margin-top: 0.4em;
     
 }
 
@@ -233,20 +293,6 @@ input[type="email"] {
     
     width: 70%;
     margin: 0.5em 0em;
-    
-}
-
-textarea {
-    
-    display: block;
-    margin: 0.4em auto;
-    width: 90%;
-    
-}
-
-form span {
-    
-    margin: 1em 0.4em;;
     
 }
 
@@ -258,23 +304,21 @@ input[type="submit"] {
     
 }
 
-/* Main div Figure styling */
-div#main figure {
+textarea {
     
-    position: relative;
-    margin: 0.5em 0;
-    margin-left: 1em;
-    height: 20%;
-    border: var(--border-color) 3px solid;
+    display: block;
+    margin: 0.4em auto;
+    width: 90%;
     
 }
 
-figure figcaption h1 {
+/* Main/Figure style rules */
+#main {
     
-    position: relative;
-    margin: 0.3em 0 0.25em 0.2em;
-    width: 120%;
-    font-size: 1.8em;
+    clear: left;
+    float: left;
+    width: 95%;
+    height: 60%;
     
 }
 
@@ -293,28 +337,45 @@ figure figcaption {
 
 figure img {
     
+    position: relative;
     float: left;
+    height: 100%;
+    margin: 0 0.7em;
+    top: 0.5em;
     
 }
 
-figure:hover h1 {
+figure:hover .item-title {
     
     color: #92a8d1;
     cursor: default;
     
 }
 
-figure img {
+/* "Yarn Yard" photo styling */
+#yard-photo {
     
-    height: 100%;
-    
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    max-width: 80%;
+    max-height: 100%;
+        
 }
 
-/* Footer styling */
+/* Footer style rules */
 footer {
 
     text-align: center;
     clear: both;
+    position: relative;
+    top: 10%;
+    
+}
+
+footer a {
+    
+    text-decoration: none;
     
 }
 
@@ -324,25 +385,64 @@ footer p span:before {
     white-space: pre;
 }
 
-footer a#tele {
-    
-    text-decoration: none;
-    
-}
+/* Media queries */
 
+/* Tablet and up media query */
 @media screen and (min-width: 768px) {
     
-    header h1 {
+    /* Class changes */
+    .large-title {
     
-        font-size: 3em;
-        top: 0.1em;
+        font-size: 1.4em;
+        top: 0.3em;
     
     }
-
     
+    .medium-title {
+        
+        font-size: 1.9em;
+        
+    }
+    
+    .subtitle {
+        
+        display: block;
+        
+    }
+    
+    .small-title {
+        
+        font-size: 1.7em;
+        
+    }
+    
+    .item-container {
+        
+        margin: 1.5em 0;
+        height: 17%;
+        border-left: none;
+        
+    }
+    
+    .item-title {
+    
+        font-size: 1.5em;
+        width: 100%;
+    
+    }
+    
+    /* Header changes */
+    header {
+        
+        margin-bottom: 1.5em;
+        
+    }
+    
+    /* Navigation changes */
     nav {
         
         display: block;
+        width: 17%;
         
     }
     
@@ -352,70 +452,40 @@ footer a#tele {
         
     }
     
-    header {
-        
-        margin-bottom: 1.5em;
-        
-    }
-    
-    html, body {
-        
-        height: 100%;
-        
-    }
-    
-    div#main {
+    /* Main */
+    #main {
         
         width: 80%;
+        height: 60%;
         
     }
     
-    div#main article h2 {
-        
-        display: block;
-        
-    }
-    
-    div#main figure {
-        
-        margin: 1.5em 0;
-        
-        height: 17%;
-        border-left: none;
-        
-    }
-    
-    figure figcaption h1 {
-        
-        width: 100%;
-        
-    }
-    
+    /* Figure caption display */
     figure figcaption p {
         
         display: block;
         
     }
-
-    div#main article h1 {
     
-        font-size: 1.9em;
-    
+    /* Contact form changes */
+    form {
+        
+        margin-top: 1em;
+        
     }
-    
-    footer a#tele {
-    
-        pointer-events: none;
-        cursor: default;
-    
-    }
-    
+        
     input[type="text"] {
         
         margin-left: 0.4em;
         margin-bottom: 0.3em;
-        width: 90%;
+        width: 80%;
         
+    }
+    
+    input[type="email"] {
+
+        width: 80%;
+
     }
     
     input[type="email"]:invalid {
@@ -439,13 +509,72 @@ footer a#tele {
         
     }
     
+    /* Footer changes */
+    footer {
+        
+        top: 14%;
+        
+    }
+    
+    #tele {
+    
+        pointer-events: none;
+        cursor: default;
+    
+    }
+    
 }
 
+/* Small laptop and up media query */
 @media screen and (min-width: 1024px) {
     
+    /* Insert a pipe before the contact information in the footer */
      footer p span:before {
 
         content: " |";
     }
     
 }
+
+/* Large laptop and up media query */
+@media screen and (min-width: 1440px) {
+    
+    /* Nav changes so it doesn't take up too much screen room */
+    nav {
+        
+        width: 10%;
+        
+    }
+    
+}
+
+/* Printer media query */
+@media print {
+    
+    p, h1, h2, h3, a {
+        
+        color: #000;
+        
+    }
+    
+    #page-icon {
+        
+        visibility: hidden;
+        
+    }
+    
+    body {
+        
+        background-color: #FFF;
+        
+    }
+    
+    nav, #navcontrol-mobile {
+        
+        display: none;
+        
+    }
+    
+}
+
+

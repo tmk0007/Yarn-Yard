@@ -1,26 +1,13 @@
 -- CSS
 
--> Optimise for mobile
--> Fix image displacement on height changes
--> Add rules for text in the main div other than figure and article
--> Possibly change color pallete/scheme
+-> Minify CSS
 
 -- HTML
 
 -> Add content to home page
 -> Add content to the About Us page
 -> Find and shorten a link to a place on Google Maps
--> Create the contact form on the contact page
--> Add content to footer
--> Update meta description tags and add meta tags
 -> Add an favicon
--> Update title tags
 
 -- HTML and CSS
-
--> Add classes and IDs
-
--- Optimisation and files
-
--> Get images for the yarn, tools, and front page
--> Optimise images and minify CSS
+Find new store image
