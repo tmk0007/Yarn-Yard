@@ -1,5 +1,9 @@
 -- CSS
 
+<<<<<<< HEAD
+=======
+-> Add rules for text in the main div other than figure and article
+>>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 -> Minify CSS
 
 -- HTML
@@ -7,7 +11,14 @@
 -> Add content to home page
 -> Add content to the About Us page
 -> Find and shorten a link to a place on Google Maps
+<<<<<<< HEAD
+=======
+-> Update meta description tags and add meta tags
+>>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
 -> Add an favicon
 
 -- HTML and CSS
+<<<<<<< HEAD
 Find new store image
+=======
+>>>>>>> 289d6bf1ac33ef2b9e1e156485320908e5ee12d6
