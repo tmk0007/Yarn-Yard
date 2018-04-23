@@ -76,7 +76,7 @@ header {
     
     position: relative;
     font-size: 1.1em;
-    top: 0.7em;
+    top: 0.1em;
     left: 0.2em;
     
 }
@@ -142,6 +142,12 @@ header {
     
 }
 
+.location:hover {
+    
+    color: #c94c4c;
+    
+}
+
 /* Navigaition styling */
 nav {
     
@@ -156,7 +162,7 @@ nav {
     
 }
 
-nav ul li, #mobilenavigation li {
+nav ul li {
     
     list-style: none;
     margin: 0.5em;
@@ -177,13 +183,13 @@ nav ul li a {
     
 }
 
-nav li#current a, #mobilenavigation li#current a {
+li#current a {
     
     color: #f7786b;
     
 }
 
-nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover, #mobilenavigation ul li#current a:hover {
+nav ul li a:hover, li#current a:hover, #mobilenavigation ul li a:hover {
     
     color: #eea29a;
     

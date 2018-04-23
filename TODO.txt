@@ -4,8 +4,6 @@
 
 -- HTML
 
--> Add content to home page
--> Add content to the About Us page
 -> Find and shorten a link to a place on Google Maps
 -> Add an favicon
 
